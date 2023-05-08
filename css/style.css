@@ -1,0 +1,138 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: #fcb6e8;
+    font-family: 'Yeseva One', Georgia, serif;
+}
+
+.jumbotron .lead {
+    font-family: 'Oxygen', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.nav {
+    margin-bottom: 30px;
+    font-family: 'Oxygen', Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.nav-item a {
+    color: #b62496;
+}
+
+.nav-item a:hover {
+    color: #851a6d;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Yeseva One', Georgia, serif;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Oxygen', Arial, sans-serif;
+}
+
+.sectionHeader {
+    background-size: cover;
+    background-color: #fcb6e8;
+    font-family: 'Yeseva One', Georgia, serif;
+    font-weight: 700;
+    color: #1a1a17;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+.subSectionHeader {
+    background-size: cover;
+    background-color: #fcb6e8;
+    font-family: 'Oxygen', Arial, sans-serif;
+    font-weight: 700;
+    color: #1a1a17;
+    padding: 10px;
+    margin: 15px;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-family: 'Yeseva One', Georgia, serif;
+    margin-left: 20px;
+}
+
+.sectionIntro {
+    margin: 20px;
+}
+
+.sectionCards {
+    padding: 0px 20px 20px 20px;
+}
+
+.researchSection {
+    background: rgb(106,179,179);
+    background: radial-gradient(circle, rgba(106,179,179,0.5) 5%, rgba(255,252,252,1) 67%);
+}
+
+.lowFiMob {
+    height: 400px;
+}
+
+.testIntroNumber {
+    font-size: 2.4rem;
+    color: #b62496;
+    text-align: center;
+}
+
+.testIntro {
+    text-align: center;
+}
+
+.horizontalCard {
+    margin: 20px;
+}
+
+.testing {
+    margin-left:15px;
+}
+
+.divider {
+    background-color:#fcb6e8;
+    height: 7px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.add1 {
+    height: 50vh;
+}
+
+.add2 {
+    height: 75vh;
+}
+
+.add3 {
+    height: 100vh;
+}
+
+.finalDesignSection {
+    padding-bottom: 50px;
+}
+
+
+.backToTopText {
+    font-family: 'Oxygen', Arial, sans-serif;
+    font-size: 400;
+}
+

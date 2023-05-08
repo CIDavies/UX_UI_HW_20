@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UX/UI Homework 20</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Yeseva+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!--My stylesheet-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+
+    <!--Hero - Jumbotron component-->
+    <div class="jumbotron jumbotron-fluid" id="top">
+        <div class="container">
+            <h1 class="display-4">Government website redesign</h1>
+            <p class="lead">For this project, I worked on redesigning the website’s UX and UI. This included
+                restructuring the site navigation and creating a new, comprehensive style guide.</p>
+        </div>
+    </div>
+
+    <!--Page navigation - Nav component-->
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="#Research">Research</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Ideation">Ideate</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Prototype">Prototype</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Style">Style</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#TestandIterate">Test and Iterate</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#finalDesign">Final design</a>
+        </li>
+    </ul>
+
+    <!--Case study intro image - Column system-->
+
+    <div class="container-fluid CFIAtop">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Problem</h2>
+                <p>The existing CFIA website was not user-friendly, with complex user journeys and an unattractive
+                    interface. Research showed that the website was not meeting user needs and needed to be streamlined
+                    and simplified.</p>
+                <h2>Solution</h2>
+                <p>I created a new design system for the site, simplified key users journeys and restructured the site
+                    navigation to deliver an improved user experience for desktop and mobile users.</p>
+            </div>
+            <div class="col-sm-6">
+                <h2>My role and responsibilities</h2>
+                <p>I worked with another designer in the discovery phase and then worked independently for the rest of
+                    the design process as user researcher, UX and UI designer.
+                </p>
+                <h2>Tools</h2>
+                <p>Figma, InVision, Miro, Google suite.</p>
+                <h2>Timeline</h2>
+                <p>5 weeks</p>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-8"><img src="images/CFIA_pink_bkg.png" class="img-fluid"></div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <!--Research section - Card components and column system-->
+    <div class="researchSection">
+        <h2 class="sectionHeader" id="Research">Research</h2>
+        <h3>User flow analysis and heuristic evaluation</h3>
+        <div class="sectionIntro">
+            <p>To fully understand user pain points, we analysed the existing user journey flows, navigation and
+                heuristics on the
+                CFIA website. We focused on food recalls and food safety information, as these were the most
+                prominent pages on the
+                website and the core function of the CFIA.
+            </p>
+        </div>
+
+        <div class="container-fluid content">
+            <div class="row sectionCards">
+
+                <!-- Card 1 -->
+                <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="images/Existing-user-flow.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">A fragmented user flow left users confused and frustrated.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End card 1 -->
+
+                <!-- Card 2 -->
+                <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img src="images/CFIA-heuristic-evaluation.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Users struggled to navigate the existing site. Unable to easily return
+                                to the CFIA
+                                homepage, they frequently ended up on the main Canadian Government website. Complex
+                                information
+                                architecture and too much content left users scrolling and scanning multiple pages to
+                                try and find what
+                                they needed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End card 2 -->
+            </div>
+        </div>
+
+        <h3>Usability testing</h3>
+        <div class="sectionIntro">
+            <p>We created a proto persona to focus our research, then conducted 10 usability tests with both mobile and
+                desktop users. Poor success rates for the tasks we tested highlighted issues with the navigation,
+                styling
+                and UI components. After categorising and prioritising our results, clear pain points emerged.
+            </p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4"><img src="images/usability_tests_1.png" class="img-fluid"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4"><img src="images/usability_tests_1.png" class="img-fluid"></div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+        <h3>Analysing test results</h3>
+        <div class="sectionIntro">
+            <p>After categorising and prioritising our results, clear pain points emerged.
+            </p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-4"><img src="images/CFIA-user-testing-results-matrix.png" class="img-fluid">
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4"><img src="images/CFIA-user-testing-affinity-sort.png" class="img-fluid">
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+        <h3>Pain points:</h3>
+        <div class="sectionIntro">
+            <ul>
+                <li>CTAs not obvious</li>
+                <li>overwhelming homepage, too much content and poor content chunking</li>
+                <li>breadcrumbs and logo confuse the user, there is no trusted way to return to the homepage</li>
+                <li>information is hard to find, sections are unclear to users</li>
+                <li>navigation, copy and content organisation does not meet users’ expectations</li>
+                <li>content confuses the user and doesn’t allow them to easily achieve their goals.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!--Ideation section - Column system-->
+
+    <div class="ideationSection">
+        <h2 class="sectionHeader" id="Ideation">Ideation</h2>
+        <h3>Sitemap</h3>
+        <div class="sectionIntro">
+            <p>After identifying the key problems with the current navigation, I focused on redesigning the site map. I
+                conducted a card sort to create a new navigation structure and organisation.</p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10 col-sm-10">
+                    <img src="images/card_sort_site_map.png" class="img-fluid">
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+
+        <h3>Moodboard</h3>
+        <div class="sectionIntro">
+            <p>Before beginning the design phase, I looked at other websites, including other food agencies and
+                government sites, pulling together a moodboard for layout and UI inspiration.</p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img src="images/Moodboard-1.png" class="img-fluid MBimg">
+                    <img src="images/Moodboard-imagery.png" class="img-fluid MBimg">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12"><img src="images/Moodboard-government.png"
+                        class="img-fluid MBimgright">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Prototype section - Column system -->
+
+    <div class="prototypeSection">
+        <h2 class="sectionHeader" id="Prototype">Prototype</h2>
+        <h3>Low-fidelity prototype and navigation</h3>
+        <div class="sectionIntro">
+            <p>I based my navigation on the ‘category’ LATCH principle. Grouping content into categories was clearest
+                for users. Organising by another principle would make it difficult for a user with no prior knowledge of
+                the CFIA to find the content they need.<br></br>
+                Within each category, I ordered the secondary navigation content by hierarchy. The hierarchy was
+                informed by looking at the ‘most requested’ sections on the existing CFIA website.</p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1">
+                </div>
+                <div class="col-sm-12 col-lg-10">
+                    <img src="images/low_fi.png" class="img-fluid">
+                </div>
+                <div class="col-lg-1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Rapid user testing - SUB-SECTION  -->
+
+    <div class="testingSection">
+        <h2 class="subSectionHeader">Rapid User Testing</h2>
+        <h3 class="testIntroNumber">10</h3>
+        <h3 class="testIntro">Rapid user tests</h3>
+        <div class="sectionIntro">
+            <p>I conducted 10 rapid user tests on my wireframes and then iterated my designs based on the results. Key
+                changes included:<br></br>
+            <ul>
+                <li>adding colour to make content chunking clearer</li>
+                <li>creating a language option component to make the option clearer for users</li>
+                <li>finessing interactions so the mobile search bar closed when a user clicked anywhere else on the
+                    page.</li>
+            </ul>
+            </p>
+        </div>
+
+        <!--Style section  -->
+
+        <div class="styleSection">
+            <h2 class="sectionHeader" id="Style">Visual Design and Style Guide</h2>
+            <div class="sectionIntro">
+                <p>With such a wide remit and large amount of content, I knew the visual styling of the CFIA website
+                    needed to be clear and consistent for the user. Before developing a high-fidelity prototype, I
+                    created a completely new style guide and design system.
+                </p>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-5 col-sm-12"><img src="images/Style-guide.png" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <img src="images/style_guide_2.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Test and Iterate section - Horizontal Cards and Column system-->
+
+        <div class="TestandIterateSection">
+            <h2 class="sectionHeader" id="TestandIterate">Iterations</h2>
+            <div class="sectionIntro">
+                <p>I applied my design system to my mid-fidelity prototype and iterated the design.
+                </p>
+            </div>
+            <!--Card one-->
+            <div class="card mb-3 horizontalCard">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="images/social-iteration.png" alt="..." class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text">
+                            <ul>
+                                <li>I removed the ‘Social channels’ menu and instead added social icons to the footer.
+                                    This information will also be on the Contact Us page and can be accessed if the user
+                                    wants to share the page.</li>
+                                <li>I added a ‘Share this page’ overlay, which appears in the centre of the screen
+                                    whenever the ‘Share’ button is pressed. I created social components as opposed to
+                                    words which are instantly recognisable and interactive. Guidelines for these icons
+                                    were added to the style guide.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Card two-->
+            <div class="card mb-3 horizontalCard">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="images/menu-iteration.png" alt="..." class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text">
+                            <ul>
+                                <li>I iterated my sitemap, separated the ‘Food’ menu items into two areas and made the
+                                    navigation menu titles more descriptive.</li>
+                                <li>One of the CFIA’s primary functions is safeguarding food and the food economy,
+                                    therefore I needed to make this content easier for users to find.</li>
+                                <li>I split the content between consumers and businesses and included tertiary pages
+                                    from my site map. Adding tertiary pages in this instance makes it easier for users
+                                    to find specific content quicker as it avoids the content being buried too deep for
+                                    them to find.</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="sectionHeader">Testing</h2>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="testing">I purposely included some of the tasks I asked users to complete in my first
+                        round of user testing and in the navigation testing done on the current CFIA website. This
+                        helped me measure any improvements I had made to the original design and identify what needed
+                        iterating. I conducted 4 desktop and 3 mobile user tests.<br></br>
+                        As the task scores were high, I focused on the qualitative feedback to figure out where to make
+                        improvements. I collated all feedback and ordered it by prominence to highlight the most
+                        pressing issues, annotated my design prototypes with relevant feedback and organised the results
+                        into a prioritisation matrix.</p>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4">
+                    <img class="img-fluid" src="images/testing.png">
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <img src="images/testing-process.png" class="img-fluid">
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+        <h2 class="sectionHeader">Iterations</h2>
+        <div class="sectionIntro">
+            <p>User test feedback highlighted that I needed to:
+            <ul>
+                <li>make food recalls and anything health risk-related more obvious</li>
+                <li>add dates to news and recalls</li>
+                <li>make it easier to contact the CFIA.</li>
+            </ul>
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="img-fluid" src="images/news_iterations.png">
+                </div>
+                <div class="col-sm-12">
+                    <p>
+                    <ul>
+                        <li>
+                            I split up the news and recalls and gave the recalls priority as they always contain
+                            information regarding health risks. I added a red ‘recall’ tag to visually highlight them to
+                            users. 
+                            I added dates to all articles to make it clearer which were most recent. 
+                        </li>
+                        <li>
+                            I standardised the size of the read more buttons to keep the visual design consistent. 
+                        </li>
+                        <li>
+                            The new layout maintains the popular alternating coloured sections and images, which users
+                            particularly liked. It also maintained lots of white space, which means the design can
+                            accommodate more content when required.
+
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="divider col-sm-10"></div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img class="img-fluid" src="images/contact_iterations.png">
+                        <img class="img-fluid" src="images/contact-iteration-2.png">
+                    </div>
+                    <div class="col-sm-4">
+                        <p>
+                        <ul>
+                            <li>
+                                Added ‘Contact Us’ link at bottom of the mobile menu, which is where users looked for
+                                it.
+                            </li>
+                            <li>
+                                Added it to the global navigation on the desktop prototype.
+                            </li>
+                            <li>
+                                Pinned the mobile navigation so key functions like search, chat and menu were alway easy
+                                for the user to access.
+                            </li>
+                            <li>
+                                Pinned the Live chat button on the desktop so that users could easily access it.
+                            </li>
+                            <li>
+                                Changed the mobile global navigation layout to make it clearer and make better use of
+                                the space.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+
+            <h2 class="subSectionHeader">Additional Pages</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <img class="img-fluid add1" src="images/contact-us-pg.png">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <img src="images/contact_us_mobile.png" class="img-fluid add2">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <img class="img-fluid add3" src="images/food_recall_mobile.png">
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+
+            <!--Final design section - Column system -->
+
+            <div class="finalDesignSection">
+                <h2 class="sectionHeader" id="finalDesign">Final Design</h2>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-1">
+                        </div>
+                        <div class="col-sm-12 col-lg-10">
+                            <img src="images/final_design_all.png" class="img-fluid">
+                        </div>
+                        <div class="col-lg-1">
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="subSectionHeader">Next steps</h3>
+                <h3>Final thoughts</h3>
+                <div class="sectionIntro">
+
+                    <p>When starting on the re-design, designing mobile-first was crucial. The CFIA mandate is broad and
+                        they have a lot of content on their site, so breaking this down in a way that was simple for
+                        users to view and interrogate was very important. Designing on a mobile screen first focused my
+                        mind on content hierarchy and streamlining the user journey.<br></br>
+
+                        User testing highlighted the contradictory journeys and preferences of users and showed how
+                        important it was for a government website to work for all users. This was especially important
+                        for navigation to key pages such as contact pages or food safety information.
+                    </p>
+                </div>
+                <h3>Future considerations</h3>
+                <div class="sectionIntro">
+                    <p>
+                        I would continue to test and iterate my existing designs, particularly the food recall page, to
+                        see if the design works for users and allows them to easily understand the information.<br></br>
+
+                        It would also be useful to engage with stakeholders at the CFIA to see what is important from
+                        their perspective and where improved website functionality or content could help them achieve
+                        business goals or streamline their operations.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <!--  Back to top section - fixed nav component-->
+
+    <nav class="navbar fixed-bottom navbar-light bg-light backToTop">
+        <a class="navbar-brand backToTopText" href="#top">Back to top</a>
+    </nav>
+
+
+
+</body>
+<!--Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
+</html>
